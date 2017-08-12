@@ -1,0 +1,17 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^1.0.8"
+  },
+  "description": "bloop",
+  "main": "server.js",
+  "repositoy": "https://github.com/rowenscout/07-node_npm_express",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Rowen",
+  "license": "MIT"
+}
