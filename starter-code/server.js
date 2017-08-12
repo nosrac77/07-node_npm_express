@@ -10,8 +10,6 @@
 var express = require('express');
 var app = express();
 
-app.use(express.static('./public'));
-
 app.listen(3000)
 const bodyParser = require('body-parser').urlencoded({extended: true});
 const PORT = process.env.PORT || 3000;
